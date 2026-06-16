@@ -111,3 +111,16 @@ for (let i = 0; i < presentes.length; i++) {
     console.log(presentes[i]);
 }
 // Nível 4 — Cálculos com arrays
+//16 Soma dos números
+let numerx = [1, 2, 3, 4, 5];
+let somaTotal = 0;
+for (let i = 0; i < numerx.length; i++) {
+    somaTotal = somaTotal + numerx[i];
+}
+console.log("A soma é : ", +  somaTotal)
+
+
+//17 Média de notas
+let notx = [7, 10, 9, 6];
+let somatota = 0;
+let media = 0;
